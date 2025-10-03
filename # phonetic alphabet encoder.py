@@ -29,5 +29,5 @@ phonetic = {
 letter_grid = [list(word) for word in ut.split()]
 
 for word in letter_grid:
-    phonetic_word = [phonetic.get(letter, letter) for letter in word]
+    phonetic_word = [phonetic.get(letter, letter) for letter in word] #add .get and .join explinations (claud chat)
     print(' - '.join(phonetic_word))
